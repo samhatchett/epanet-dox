@@ -3,6 +3,7 @@ var NAVTREE =
   [ "EPANET", "index.html", [
     [ "EPANET OSS", "index.html", null ],
     [ "EPANET", "epanet_readme.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", null, [
       [ "Data Structures", "annotated.html", "annotated" ],
       [ "Data Structure Index", "classes.html", null ]
@@ -20,7 +21,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"struct_scontrol.html#a6a6be6a4a36d14ec137c6c3ce8fd17d4"
+"struct_s_field.html#ac462d27a2a17a2caa322421ab39871a1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -46,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -92,7 +93,7 @@ $(document).ready(function(){initNavTree('epanet2_8h.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Modules</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -471,33 +472,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a0647270876bbbf21b5a81660b3ddb128"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#a0647270876bbbf21b5a81660b3ddb128">ENepanet</a> (char *inpFile, char *rptFile, char *binOutFile, void(*callback)(char *))</td></tr>
 <tr class="memdesc:a0647270876bbbf21b5a81660b3ddb128"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs a complete EPANET simulation  <a href="#a0647270876bbbf21b5a81660b3ddb128">More...</a><br /></td></tr>
 <tr class="separator:a0647270876bbbf21b5a81660b3ddb128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc5011f03a886751f7b41a75be16e2b9"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#afc5011f03a886751f7b41a75be16e2b9">ENopen</a> (char *inpFile, char *rptFile, char *binOutFile)</td></tr>
-<tr class="memdesc:afc5011f03a886751f7b41a75be16e2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens EPANET input file &amp; reads in network data.  <a href="#afc5011f03a886751f7b41a75be16e2b9">More...</a><br /></td></tr>
-<tr class="separator:afc5011f03a886751f7b41a75be16e2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#ad0e4d2aaccc25eddd0cc4c15c083ac8f">ENsaveinpfile</a> (char *filename)</td></tr>
-<tr class="memdesc:ad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves current data to "INP" formatted text file.  <a href="#ad0e4d2aaccc25eddd0cc4c15c083ac8f">More...</a><br /></td></tr>
-<tr class="separator:ad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc5011f03a886751f7b41a75be16e2b9"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___file_management.html#gafc5011f03a886751f7b41a75be16e2b9">ENopen</a> (char *inpFile, char *rptFile, char *binOutFile)</td></tr>
+<tr class="memdesc:gafc5011f03a886751f7b41a75be16e2b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens EPANET input file &amp; reads in network data.  <a href="group___file_management.html#gafc5011f03a886751f7b41a75be16e2b9">More...</a><br /></td></tr>
+<tr class="separator:gafc5011f03a886751f7b41a75be16e2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___file_management.html#gad0e4d2aaccc25eddd0cc4c15c083ac8f">ENsaveinpfile</a> (char *filename)</td></tr>
+<tr class="memdesc:gad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves current data to "INP" formatted text file.  <a href="group___file_management.html#gad0e4d2aaccc25eddd0cc4c15c083ac8f">More...</a><br /></td></tr>
+<tr class="separator:gad0e4d2aaccc25eddd0cc4c15c083ac8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af953962d462ee37493418ba5b54b2e1e"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#af953962d462ee37493418ba5b54b2e1e">ENclose</a> ()</td></tr>
 <tr class="memdesc:af953962d462ee37493418ba5b54b2e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all memory and files used by EPANET.  <a href="#af953962d462ee37493418ba5b54b2e1e">More...</a><br /></td></tr>
 <tr class="separator:af953962d462ee37493418ba5b54b2e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace66aad32f79c40b0da459d60ab4ef4a"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#ace66aad32f79c40b0da459d60ab4ef4a">ENsolveH</a> ()</td></tr>
-<tr class="memdesc:ace66aad32f79c40b0da459d60ab4ef4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the network hydraulics for all time periods.  <a href="#ace66aad32f79c40b0da459d60ab4ef4a">More...</a><br /></td></tr>
-<tr class="separator:ace66aad32f79c40b0da459d60ab4ef4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c012b09cd536f46eea0d6903e16747"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#a52c012b09cd536f46eea0d6903e16747">ENsaveH</a> ()</td></tr>
-<tr class="memdesc:a52c012b09cd536f46eea0d6903e16747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves hydraulic results to binary file.  <a href="#a52c012b09cd536f46eea0d6903e16747">More...</a><br /></td></tr>
-<tr class="separator:a52c012b09cd536f46eea0d6903e16747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac0286dd4bbd7f4183f94bfed25f3b45"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#aac0286dd4bbd7f4183f94bfed25f3b45">ENopenH</a> ()</td></tr>
-<tr class="memdesc:aac0286dd4bbd7f4183f94bfed25f3b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up data structures for hydraulic analysis.  <a href="#aac0286dd4bbd7f4183f94bfed25f3b45">More...</a><br /></td></tr>
-<tr class="separator:aac0286dd4bbd7f4183f94bfed25f3b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace15165dac61f3180e770cf406281b61"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#ace15165dac61f3180e770cf406281b61">ENinitH</a> (int initFlag)</td></tr>
-<tr class="memdesc:ace15165dac61f3180e770cf406281b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes hydraulic analysis.  <a href="#ace15165dac61f3180e770cf406281b61">More...</a><br /></td></tr>
-<tr class="separator:ace15165dac61f3180e770cf406281b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad45bda3e7bbdfc54160847bf4c8c72e5"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="epanet2_8h.html#ad45bda3e7bbdfc54160847bf4c8c72e5">ENrunH</a> (long *currentTime)</td></tr>
-<tr class="memdesc:ad45bda3e7bbdfc54160847bf4c8c72e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a hydraulic solution period.  <a href="#ad45bda3e7bbdfc54160847bf4c8c72e5">More...</a><br /></td></tr>
-<tr class="separator:ad45bda3e7bbdfc54160847bf4c8c72e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ac0044292927b47c6c4aa4bfa0f7b23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ac0044292927b47c6c4aa4bfa0f7b23"></a>
-int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><b>ENnextH</b> (long *tStep)</td></tr>
-<tr class="separator:a5ac0044292927b47c6c4aa4bfa0f7b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace66aad32f79c40b0da459d60ab4ef4a"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#gace66aad32f79c40b0da459d60ab4ef4a">ENsolveH</a> ()</td></tr>
+<tr class="memdesc:gace66aad32f79c40b0da459d60ab4ef4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the network hydraulics for all time periods.  <a href="group___hydraulic_functions.html#gace66aad32f79c40b0da459d60ab4ef4a">More...</a><br /></td></tr>
+<tr class="separator:gace66aad32f79c40b0da459d60ab4ef4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52c012b09cd536f46eea0d6903e16747"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#ga52c012b09cd536f46eea0d6903e16747">ENsaveH</a> ()</td></tr>
+<tr class="memdesc:ga52c012b09cd536f46eea0d6903e16747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves hydraulic results to binary file.  <a href="group___hydraulic_functions.html#ga52c012b09cd536f46eea0d6903e16747">More...</a><br /></td></tr>
+<tr class="separator:ga52c012b09cd536f46eea0d6903e16747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac0286dd4bbd7f4183f94bfed25f3b45"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#gaac0286dd4bbd7f4183f94bfed25f3b45">ENopenH</a> ()</td></tr>
+<tr class="memdesc:gaac0286dd4bbd7f4183f94bfed25f3b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up data structures for hydraulic analysis.  <a href="group___hydraulic_functions.html#gaac0286dd4bbd7f4183f94bfed25f3b45">More...</a><br /></td></tr>
+<tr class="separator:gaac0286dd4bbd7f4183f94bfed25f3b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace15165dac61f3180e770cf406281b61"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#gace15165dac61f3180e770cf406281b61">ENinitH</a> (int initFlag)</td></tr>
+<tr class="memdesc:gace15165dac61f3180e770cf406281b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes hydraulic analysis.  <a href="group___hydraulic_functions.html#gace15165dac61f3180e770cf406281b61">More...</a><br /></td></tr>
+<tr class="separator:gace15165dac61f3180e770cf406281b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad45bda3e7bbdfc54160847bf4c8c72e5"><td class="memItemLeft" align="right" valign="top">int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#gad45bda3e7bbdfc54160847bf4c8c72e5">ENrunH</a> (long *currentTime)</td></tr>
+<tr class="memdesc:gad45bda3e7bbdfc54160847bf4c8c72e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a hydraulic solution period.  <a href="group___hydraulic_functions.html#gad45bda3e7bbdfc54160847bf4c8c72e5">More...</a><br /></td></tr>
+<tr class="separator:gad45bda3e7bbdfc54160847bf4c8c72e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ac0044292927b47c6c4aa4bfa0f7b23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5ac0044292927b47c6c4aa4bfa0f7b23"></a>
+int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___hydraulic_functions.html#ga5ac0044292927b47c6c4aa4bfa0f7b23">ENnextH</a> (long *tStep)</td></tr>
+<tr class="memdesc:ga5ac0044292927b47c6c4aa4bfa0f7b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine time (in seconds) until next hydraulic event. <br /></td></tr>
+<tr class="separator:ga5ac0044292927b47c6c4aa4bfa0f7b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88a6582c1d5070e4cbd72b35b71b9bef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a88a6582c1d5070e4cbd72b35b71b9bef"></a>
 int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><b>ENcloseH</b> ()</td></tr>
 <tr class="separator:a88a6582c1d5070e4cbd72b35b71b9bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -795,181 +797,6 @@ int DLLEXPORT&#160;</td><td class="memItemRight" valign="bottom"><b>ENaddcurve</
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ace15165dac61f3180e770cf406281b61"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENinitH </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>initFlag</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initializes hydraulic analysis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">flag</td><td>2-digit flag where 1st (left) digit indicates if link flows should be re-initialized (1) or not (0), and 2nd digit indicates if hydraulic results should be saved to file (1) or not (0). </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="afc5011f03a886751f7b41a75be16e2b9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENopen </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>inpFile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>rptFile</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>binOutFile</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Opens EPANET input file &amp; reads in network data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">inpFile</td><td>pointer to name of input file (must exist) </td></tr>
-    <tr><td class="paramname">rptFile</td><td>pointer to name of report file (to be created) </td></tr>
-    <tr><td class="paramname">binOutFile</td><td>pointer to name of binary output file (to be created) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>error code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aac0286dd4bbd7f4183f94bfed25f3b45"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENopenH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets up data structures for hydraulic analysis. </p>
-<dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad45bda3e7bbdfc54160847bf4c8c72e5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENrunH </td>
-          <td>(</td>
-          <td class="paramtype">long *&#160;</td>
-          <td class="paramname"><em>currentTime</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Run a hydraulic solution period. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">currentTime</td><td>The current simulation time in seconds </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Error or warning code</dd></dl>
-<p>This function is used in a loop with ENnextH() to run an extended period hydraulic simulation. See <a class="el" href="epanet2_8h.html#ace66aad32f79c40b0da459d60ab4ef4a" title="Solves the network hydraulics for all time periods. ">ENsolveH()</a> for an example.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="epanet2_8h.html#ace66aad32f79c40b0da459d60ab4ef4a" title="Solves the network hydraulics for all time periods. ">ENsolveH</a> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a52c012b09cd536f46eea0d6903e16747"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENsaveH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Saves hydraulic results to binary file. </p>
-<dl class="section return"><dt>Returns</dt><dd>Error code</dd></dl>
-<p>Must be called before ENreport() if no WQ simulation has been made. Should not be called if ENsolveQ() will be used. </p>
-
-</div>
-</div>
-<a class="anchor" id="ad0e4d2aaccc25eddd0cc4c15c083ac8f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENsaveinpfile </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Saves current data to "INP" formatted text file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">filename</td><td>The file path to create </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ace66aad32f79c40b0da459d60ab4ef4a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DLLEXPORT ENsolveH </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Solves the network hydraulics for all time periods. </p>
 <dl class="section return"><dt>Returns</dt><dd>Error code </dd></dl>
 
 </div>
